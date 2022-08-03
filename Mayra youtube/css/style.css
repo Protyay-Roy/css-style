@@ -1,0 +1,25 @@
+.banner_img{
+    background: url('../images/background.png') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 180px;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
+    animation: back 10s linear infinite;
+    background-image: url('../images/back.png');
+    background-position: 0 0;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
